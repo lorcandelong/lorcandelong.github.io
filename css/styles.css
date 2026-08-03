@@ -898,3 +898,13 @@ footer {
     gap:15px;
 
 }
+
+.certificate-card .btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+}
