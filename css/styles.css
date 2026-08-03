@@ -777,3 +777,30 @@ footer {
     border-radius:20px;
 
 }
+
+.section {
+
+    opacity: 0;
+
+    transform: translateY(30px);
+
+    transition: all .8s ease;
+
+}
+
+
+.section.visible {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
+
+
+
+.nav-link.active {
+
+    color: var(--primary-hover);
+
+}
